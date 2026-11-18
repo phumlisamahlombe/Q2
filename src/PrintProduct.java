@@ -10,10 +10,9 @@ public class PrintProduct {
             out.println("******************************");
             out.println("Customer Name: " + product.getCustomerName());
             out.println("Product: " + product.getProductName());
-            out.println("VAT: R " + calc.calculateVat());
-            out.println("COMMISSION: R " + calc.calculateCommission());
-            out.println("TOTAL: R " + calc.calculateTotal());
-            out.println("******************************");
+            out.println("VAT: R " + calc.GetVat());
+            out.println("COMMISSION: R " + calc.GetCommission());
+            out.println("TOTAL: R " + calc.GetTotal());
         }
     }
 }

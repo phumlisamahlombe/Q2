@@ -1,4 +1,3 @@
-package productapp;
 
 import javax.swing.*;
 import java.awt.*;
@@ -79,7 +78,7 @@ public class ProductApp extends JFrame {
             return;
         }
 
-        IProductCalculations calc = new ProductCalculations(price);
+            IProductCalculations calc = new ProductCalculations(price);
         double vat = calc.GetVat();
         double commission = calc.GetCommission();
         double total = calc.GetTotal();
